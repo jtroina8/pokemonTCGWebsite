@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pkmnStyle.css">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+  rel="stylesheet"/>
+    <title>Results</title>
+</head>
+<body>
+    <div class="mainBody">
+        <div class= header>
+            <a href="pkmnHome.html"><img src="title2.png"></a>
+            <input type="text" id="search2" placeholder="Name that Pokemon!">
+            <input class="btn1" onclick="return searchPKMN()" type="button" value="Search!!!"></input>
+            <div class="anchors">
+              <a href="pkmnAbout.html">About</a>
+              <a href="pkmnInfo.html">Index</a>
+            </div>
+            <div class="dropdown">
+                <button
+                  class="btn btn-primary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="pkmnAbout.html">About</a></li>
+                  <li><a class="dropdown-item" href="pkmnInfo.html">Index</a></li>
+                  <li><a class="dropdown-item" href="#">Credits</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="main-container">
+        </div>
+        <footer id="bottom">If you'd like to make your own website, please check out <a href="http://https://pokemontcg.io/">Pokemon TCG API</a>!</footer>
+        <footer>Joey's PKMN: TCG Encyclopedia Version 0.03</footer>
+        
+
+        </div>
+    </div>
+
+<script src="PKMNCard.js"></script>
+</body>
+</html>
+

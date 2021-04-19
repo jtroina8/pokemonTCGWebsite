@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pkmnStyle.css">
+    <title>Home</title>
+</head>
+<body class="home-root">
+    <div class="container-container">
+        <div class="homeContainer">
+            <div class="title">
+                <img src="title.png">
+                <input type="text" id="search" placeholder="Name that Pokemon!">
+            </div>  
+            
+        </div>
+        <div class="box child-to-body">
+            <img src="pokeBannerGimp.png" width="250" alt="">
+            <div class="poke_box">
+                <div class="pokeball">
+                    <div class="pokeball__button" onclick="searchPKMN()">
+                        <input class="btn1" onclick="return searchPKMN()" type="button"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="bottom">If you'd like to make your own website, please check out <a href="http://https://pokemontcg.io/">Pokemon TCG API</a>!</footer>
+    <footer>Joey's PKMN: TCG Encyclopedia Version 0.03</footer>
+    <script src="testPKMN.js"></script>
+</body>
+</html>
